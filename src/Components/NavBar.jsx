@@ -11,6 +11,12 @@ return(
          <Link className="linklist" to="/">
             StateProcess
           </Link>
+          <Link className="linklist" to="/State">
+            State
+          </Link>
+          <Link className="linklist" to="/Fibanocci">
+            Fibanocci
+          </Link>
         </div>
     </div>
     </>

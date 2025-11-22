@@ -11,4 +11,8 @@
   text-decoration: none;
   color: black;
 }
+.linkstyle{
+  display: flex;
+  gap: 30px;
+}
 
