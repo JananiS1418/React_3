@@ -13,15 +13,7 @@ const Fibanocci = () => {
   };
 
   
-  const [numbers, setNumbers] = useState([]);
-
-  const generateNumbers = () => {
-    const arr = [];
-    for (let i = 1; i <= 30; i++) {
-      arr.push(i);
-    }
-    setNumbers(arr);
-  };
+ 
 
   return (
     <>
@@ -36,11 +28,7 @@ const Fibanocci = () => {
         </button>
       </div>
 
-      <div className="flex bg-blue-200 p-3 justify-center items-center flex-col gap-2 mt-2">
-        <h2>Numbers 1 to 30 </h2>
-        <button className="bg-black text-white w-30 flex justify-center items-center" onClick={generateNumbers}>Click</button>
-        <p>{numbers.join(", ")}</p>
-      </div>
+      
     </>
   );
 };
