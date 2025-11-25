@@ -17,6 +17,9 @@ return(
           <Link className="linklist" to="/Fibanocci">
             Fibanocci
           </Link>
+          <Link className="linklist" to="/Props">
+            Props
+          </Link>
         </div>
     </div>
     </>

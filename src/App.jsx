@@ -5,6 +5,8 @@ import './App.css';
 import State from "./Components/State";
 import Fibanocci from "./Components/Fibanocci";
 
+import Properties from "./Components/Properties";
+
 const App = () => {
   return (
     <>
@@ -15,6 +17,7 @@ const App = () => {
             <Route path="/" element={<StateProcess />} />
             <Route path="/State" element={<State />} />
             <Route path="/Fibanocci" element={<Fibanocci />} />
+            <Route path="/Props" element={<Properties />} />
           </Routes>
         </main>
       </div>
