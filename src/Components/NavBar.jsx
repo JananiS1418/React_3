@@ -20,6 +20,13 @@ return(
           <Link className="linklist" to="/Props">
             Props
           </Link>
+          <Link className="linklist" to="/Formhandling">
+            Form
+          </Link>
+          <Link className="linklist" to="/Showdetails">
+            Details
+          </Link>
+          
         </div>
     </div>
     </>
